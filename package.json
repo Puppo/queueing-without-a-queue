@@ -4,6 +4,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "infra:up": "docker-compose up -d",
+    "infra:down": "docker-compose down",
     "start": "tsx src/index.ts"
   },
   "author": "",
@@ -11,7 +13,11 @@
   "description": "",
   "devDependencies": {
     "@types/node": "^22.10.1",
+    "@types/pg": "^8.11.10",
     "tsx": "^4.19.2",
     "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "pg": "^8.13.1"
   }
 }
