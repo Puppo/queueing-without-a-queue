@@ -1,0 +1,1 @@
+console.log('Welcome to Queueing without a Queue!');
