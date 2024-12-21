@@ -3,6 +3,7 @@
     /* Language and Environment */
     "target": "ESNext",
     "module": "ESNext",
+    "moduleResolution": "nodenext",
     "rootDir": "./src",
     "baseUrl": "./src",
     "outDir": "./dist",
