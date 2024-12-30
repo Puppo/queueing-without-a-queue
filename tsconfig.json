@@ -2,12 +2,13 @@
   "compilerOptions": {
     /* Language and Environment */
     "target": "ESNext",
-    "module": "ESNext",
+    "module": "NodeNext",
     "rootDir": "./src",
     "baseUrl": "./src",
     "outDir": "./dist",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "nodenext",
     "strict": true,
     "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
   }
