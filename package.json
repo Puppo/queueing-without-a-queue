@@ -13,13 +13,10 @@
   "description": "",
   "devDependencies": {
     "@types/node": "^22.10.1",
-    "@types/pg": "^8.11.10",
     "tsx": "^4.19.2",
     "typescript": "^5.7.2"
   },
   "dependencies": {
-    "pg": "^8.13.1",
-    "pg-boss": "^10.1.5",
     "pino": "^9.5.0",
     "pino-pretty": "^13.0.0"
   }
